@@ -1,0 +1,107 @@
+@font-face {
+	font-family: WShabnam;
+	src: url(fonts/Shabnam.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: WShabnam;
+	src: url(fonts/Shabnam-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: WShabnam;
+	src: url(fonts/Shabnam-Light.ttf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: WShabnam;
+	src: url(fonts/Shabnam-Thin.ttf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: WShabnam;
+	src: url(fonts/Shabnam-Medium.ttf);
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: WShabnam;
+	background: #437593;
+}
+
+footer {
+	background: #313a3f;
+}
+
+.my-tab-link {
+	font-size: 0.8rem;
+	color: #5C5C5C;
+	transition: all 0.2s ease-in-out;
+}
+
+.my-tab-link:hover {
+	color: #292929;
+	background: rgba(0, 0, 0, 0.03);
+}
+
+.ad-box {
+	overflow: hidden;
+}
+
+.ad-img:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.2);
+}
+
+.border-primary {
+	border-color: #c2c2c2 !important;
+}
+
+.bg-gray-light {
+	background: #e8e8e8;
+}
+
+.text-gray-light {
+	color: #a8a8a8;
+}
+
+.sub-header-text {
+	font-size: 12px;
+}
+
+.page-link {
+	font-size: 13px;
+	color: #4b7b98 !important;
+}
+
+.page-link:hover {
+	background: #198754 !important;
+	color: #ffffff !important;
+}
+
+.fs-7 {
+	font-size: 14px;
+}
+
+.btn-custom {
+	background: #2b3337;
+	color: #ffffff;
+}
+
+.btn-custom:hover {
+	background: #d95f47;
+	;
+	color: #ffffff;
+}
+
+#advertise {
+	background: #dbdbdb;
+}
